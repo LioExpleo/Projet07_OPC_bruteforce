@@ -1,21 +1,27 @@
 # Projet 7 - Résolvez des problèmes en utilisant des algorithmes en Python - OpenClassrooms
+ Algorithme Force Brute.
 
-- Algorithme Force Brute.
+## Principe du programme:
+Les donnees d'entrées sont dans un fichier CSV avec une liste de 20 actions.
+Chaque action a un cout et un bénéfice associé après 2 ans.
+Le but de l'algorithme est de maximiser le choix des actions pour avoir le meilleur profit dans une limite de 500€ 
+d'investissement.
 
-## Mise en place du projet: 
+les données sont déjà dans le projet. Pour une utilisation d'autres données, il suffit de remplacer les données dans
+le projet par d'autres en respectant le même format et le même nom de fichier csv
+
+## Récupération et installation du programme: 
 
 #### I) Windows :
-Dans Windows Powershell, naviguer vers le dossier souhaité.
 
 ###### - Récupération du projet sous github à l'adresse suivante
 
-    $ https://github.com/LioExpleo/Projet07_OPC_bruteforce.git
+    https://github.com/LioExpleo/Projet07_OPC_bruteforce.git
 
 ###### - mettre le projet sous un répertoire
 
 ###### Ouvrir l'invite de commande windows, et aller sous le répertoire choisi avec la commande .\...Projet07_OPC_bruteforce
-    $ cd .:\.....
-    $ .:\....\cd Projet07_OPC_bruteforce 
+    Dans Windows sous l'invite de commande, naviguer pour se retrouver sous le projet. "Projet07_OPC_bruteforce" 
 
 ###### - Créer et activer l'environnement virtuel avec :
     $ python -m venv env 
@@ -27,8 +33,6 @@ Dans Windows Powershell, naviguer vers le dossier souhaité.
 ###### - Lancer le programme
     $ python bruteforce.py
 
-###### - Quitter l'envirement virtuel
-    deactivate
 
 -----
 #### II) MacOS, Linux :
@@ -36,27 +40,19 @@ Dans le terminal, naviguer vers le dossier souhaité.
 
 ###### - Récupération du projet
 
-    $ git clone https://github.com/Appryll/Projet4-Developpez-un-programme-logiciel-en-Python.git
+    $ git clone https://github.com/LioExpleo/Projet07_OPC_bruteforce.git
 
 ###### - Activer l'environnement virtuel
-    $ cd Projet4-Developpez-un-programme-logiciel-en-Python 
-    $ python3 -m venv env 
-    $ source env/bin/activate
+
+    $ se déplacer pour se trouver sous le projet comme sous windows "Projet07_OPC_bruteforce"
+    $ python3 -m venv env  (création environnement virtuel)
+    $ source env/bin/activate (activation environnement virtuel)
     
 ###### - Installer les paquets requis
     $ pip install -r requirements.txt
 
 ###### - Lancer le programme
-    $ python3 main.py
+    $ python3 bruteforce.py
 
-###### - Quitter l'envirement virtuel
-    deactivate
 
-------
-
-[^1]: Par l'exécution du programme tapez 'python bruteforce.py' dans votre terminal
-
-[^2]: Avant de lancer l'algorithme depuis le terminal, selectionner le jeu de données à parcourir en remplaçant 
-la valeur de la constante CSV_FILE en début de fichier 'optimized.py'. Après tapez 'python optimized.py' dans votre 
-terminal. 
 
