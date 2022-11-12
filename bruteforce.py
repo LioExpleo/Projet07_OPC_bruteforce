@@ -10,8 +10,6 @@ liste_donnees_1 = []
 fichier_csv = 'Csv/Donnees_01.csv'
 liste_donnees = trsf_csv_list(fichier_csv, liste_donnees_1)
 
-#print("liste des donnees sans premiere ligne avec les nombres en float plutôt que char pour traitement")
-#print(liste_donnees)
 print()
 liste_donnees_non_triees = liste_donnees #
 
